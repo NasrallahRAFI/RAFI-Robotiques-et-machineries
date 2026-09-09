@@ -85,7 +85,7 @@
   letter-spacing: 0.16em;
   color: var(--brand-blue, #0062e3);
   text-transform: uppercase;
-  font-size: 0.54rem;
+  font-size: 0.68rem;
   font-weight: 800;
   white-space: nowrap;
   line-height: 1;
@@ -407,7 +407,7 @@
   justify-content: center;
   color: var(--ink);
   flex-shrink: 0;
-  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: background-color 0.22s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.22s cubic-bezier(0.16, 1, 0.3, 1), color 0.22s cubic-bezier(0.16, 1, 0.3, 1), transform 0.22s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .summary-card:hover .summary-card__icon {
   background: rgba(0, 98, 227, 0.08);
@@ -441,7 +441,7 @@
   justify-content: center;
   color: var(--mist);
   flex-shrink: 0;
-  transition: all 0.22s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: background-color 0.22s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.22s cubic-bezier(0.16, 1, 0.3, 1), color 0.22s cubic-bezier(0.16, 1, 0.3, 1), transform 0.22s cubic-bezier(0.16, 1, 0.3, 1);
 }
 .summary-card:hover .summary-card__arrow {
   background: var(--ink);
@@ -653,13 +653,14 @@
   border-radius: 999px;
   position: relative;
   overflow: hidden;
-  transition: width 0.35s cubic-bezier(0.23, 1, 0.32, 1), background-color 0.2s ease;
+  transition: transform 0.35s cubic-bezier(0.23, 1, 0.32, 1), background-color 0.2s ease;
+  transform-origin: left center;
 }
 .trust-dot-btn:hover .trust-dot__track {
   background: rgba(13, 14, 17, 0.24);
 }
 .trust-dot-btn.is-active .trust-dot__track {
-  width: 52px;
+  transform: scaleX(1.86);
   background: rgba(13, 14, 17, 0.15);
 }
 .trust-dot__progress {
@@ -1514,9 +1515,7 @@
 }
 
 .cta-headline-gradient {
-  background: linear-gradient(135deg, #93c5fd 0%, #3b82f6 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #93c5fd;
 }
 
 .cta-lead {

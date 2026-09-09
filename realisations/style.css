@@ -22,6 +22,12 @@
   cursor: pointer !important;
   padding: 4px 0 !important;
 }
+
+/* Keep the long case-study feed out of the render pipeline until it is near the viewport. */
+.project-case-block[data-astro-cid-hpf2fkpy] {
+  content-visibility: auto;
+  contain-intrinsic-size: 0 920px;
+}
 .logo-icon--gear {
   display: flex !important;
   align-items: center !important;

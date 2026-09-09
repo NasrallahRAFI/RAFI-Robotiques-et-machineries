@@ -1,0 +1,23 @@
+{
+  "baseUrl": "https://rafirobotique.com",
+  "organization": {
+    "@id": "https://rafirobotique.com/#organization",
+    "legalName": "Rafi Robotiques et Machineries",
+    "url": "https://rafirobotique.com/",
+    "logo": "https://rafirobotique.com/assets/images/logo/rafi-mark-static.png"
+  },
+  "routes": [
+    { "path": "/", "sourceFile": "index.html", "lang": "fr", "alternates": [{ "hreflang": "fr", "path": "/" }, { "hreflang": "fr-MA", "path": "/" }, { "hreflang": "en", "path": "/en/" }, { "hreflang": "x-default", "path": "/" }] },
+    { "path": "/services/", "sourceFile": "services/index.html", "lang": "fr", "alternates": [{ "hreflang": "fr", "path": "/services/" }, { "hreflang": "fr-MA", "path": "/services/" }, { "hreflang": "en", "path": "/en/services/" }, { "hreflang": "x-default", "path": "/services/" }] },
+    { "path": "/realisations/", "sourceFile": "realisations/index.html", "lang": "fr", "alternates": [{ "hreflang": "fr", "path": "/realisations/" }, { "hreflang": "fr-MA", "path": "/realisations/" }, { "hreflang": "en", "path": "/en/projects/" }, { "hreflang": "x-default", "path": "/realisations/" }] },
+    { "path": "/contact/", "sourceFile": "contact/index.html", "lang": "fr", "alternates": [{ "hreflang": "fr", "path": "/contact/" }, { "hreflang": "fr-MA", "path": "/contact/" }, { "hreflang": "en", "path": "/en/contact/" }, { "hreflang": "x-default", "path": "/contact/" }] },
+    { "path": "/a-propos/", "sourceFile": "a-propos/index.html", "lang": "fr", "alternates": [{ "hreflang": "fr", "path": "/a-propos/" }, { "hreflang": "fr-MA", "path": "/a-propos/" }, { "hreflang": "en", "path": "/en/about/" }, { "hreflang": "x-default", "path": "/a-propos/" }] },
+    { "path": "/en/", "sourceFile": "en/index.html", "lang": "en", "alternates": [{ "hreflang": "en", "path": "/en/" }, { "hreflang": "fr", "path": "/" }, { "hreflang": "fr-MA", "path": "/" }, { "hreflang": "x-default", "path": "/" }] },
+    { "path": "/en/services/", "sourceFile": "en/services/index.html", "lang": "en", "alternates": [{ "hreflang": "en", "path": "/en/services/" }, { "hreflang": "fr", "path": "/services/" }, { "hreflang": "fr-MA", "path": "/services/" }, { "hreflang": "x-default", "path": "/services/" }] },
+    { "path": "/en/projects/", "sourceFile": "en/projects/index.html", "lang": "en", "alternates": [{ "hreflang": "en", "path": "/en/projects/" }, { "hreflang": "fr", "path": "/realisations/" }, { "hreflang": "fr-MA", "path": "/realisations/" }, { "hreflang": "x-default", "path": "/realisations/" }] },
+    { "path": "/en/contact/", "sourceFile": "en/contact/index.html", "lang": "en", "alternates": [{ "hreflang": "en", "path": "/en/contact/" }, { "hreflang": "fr", "path": "/contact/" }, { "hreflang": "fr-MA", "path": "/contact/" }, { "hreflang": "x-default", "path": "/contact/" }] },
+    { "path": "/en/about/", "sourceFile": "en/about/index.html", "lang": "en", "alternates": [{ "hreflang": "en", "path": "/en/about/" }, { "hreflang": "fr", "path": "/a-propos/" }, { "hreflang": "fr-MA", "path": "/a-propos/" }, { "hreflang": "x-default", "path": "/a-propos/" }] },
+    { "path": "/en/a-propos/", "sourceFile": "en/a-propos/index.html", "indexable": false },
+    { "path": "/en/realisations/", "sourceFile": "en/realisations/index.html", "indexable": false }
+  ]
+}

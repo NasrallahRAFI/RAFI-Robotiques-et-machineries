@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,follow">
+  <link rel="canonical" href="https://rafirobotique.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <title>Page introuvable — Rafi Robotique et Machineries</title>
+  <style>
+    .error-page {
+      min-height: 100svh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .error-header {
+      border-bottom: 1px solid var(--line);
+      background: rgba(251, 251, 249, .94);
+      backdrop-filter: blur(20px);
+    }
+
+    .error-header__inner {
+      min-height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .error-brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 11px;
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .error-brand img {
+      width: 44px;
+      height: 36px;
+      object-fit: contain;
+    }
+
+    .error-brand__name {
+      display: block;
+      font: 800 1.22rem/1.05 var(--font-display, "Outfit", sans-serif);
+      letter-spacing: -.022em;
+    }
+
+    .error-brand__sub {
+      display: block;
+      margin-top: 4px;
+      color: var(--brand-blue, #0062e3);
+      font: 800 .68rem/1 var(--font-display, "Outfit", sans-serif);
+      letter-spacing: .16em;
+    }
+
+    .error-header__code,
+    .error-label {
+      color: var(--mist);
+      font: 600 11px/1 var(--font-mono, "IBM Plex Mono", monospace);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .error-main {
+      width: 100%;
+      min-width: 0;
+      flex: 1;
+      display: grid;
+      place-items: center;
+      padding-block: clamp(72px, 12vw, 148px);
+    }
+
+    .error-panel {
+      width: min(840px, calc(100vw - 40px));
+      min-width: 0;
+      padding: clamp(32px, 6vw, 76px);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-lg);
+      background: rgba(255, 255, 255, .82);
+      box-shadow: var(--shadow-milky);
+    }
+
+    .error-panel__rule {
+      width: clamp(64px, 10vw, 112px);
+      height: 2px;
+      margin-bottom: clamp(28px, 5vw, 48px);
+      background: var(--brand-blue, #0062e3);
+    }
+
+    .error-code {
+      margin: 0;
+      color: var(--ink);
+      font: 800 clamp(4.8rem, 15vw, 10rem)/.82 var(--font-display, "Outfit", sans-serif);
+      letter-spacing: -.08em;
+    }
+
+    .error-panel h1 {
+      max-width: 12ch;
+      margin-top: clamp(28px, 5vw, 44px);
+      font-size: clamp(2.2rem, 5vw, 4.8rem);
+    }
+
+    .error-panel p {
+      max-width: 54ch;
+      margin-top: 20px;
+    }
+
+    .error-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 32px;
+    }
+
+    .error-actions .button {
+      min-height: 46px;
+    }
+
+    .error-footer {
+      padding-block: 22px;
+      border-top: 1px solid var(--line);
+      color: var(--mist);
+      font-size: .82rem;
+    }
+
+    @media (max-width: 600px) {
+      .error-header__code {
+        display: none;
+      }
+
+      .error-brand__name {
+        font-size: 1.06rem;
+      }
+
+      .error-brand__sub {
+        font-size: .48rem;
+        letter-spacing: .13em;
+      }
+
+      .error-panel h1 {
+        max-width: 11ch;
+      }
+
+      .error-actions {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .error-actions .button {
+        justify-content: center;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .error-actions .button:hover {
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="error-page">
+    <header class="error-header">
+      <div class="container error-header__inner">
+        <a class="error-brand" href="./" aria-label="Rafi Robotique et Machineries — accueil">
+          <img src="/assets/images/logo/rafi-pignon.png" alt="" width="44" height="36">
+          <span>
+            <span class="error-brand__name">Rafi Robotique</span>
+            <span class="error-brand__sub">ET MACHINERIES</span>
+          </span>
+        </a>
+        <span class="error-header__code">Error / 404</span>
+      </div>
+    </header>
+
+    <main class="error-main" id="main-content">
+      <section class="error-panel" aria-labelledby="error-title">
+        <div class="error-panel__rule" aria-hidden="true"></div>
+        <p class="error-label">Signal perdu · Route inconnue</p>
+        <p class="error-code" aria-hidden="true">404</p>
+        <h1 id="error-title">Cette page n’est plus dans le circuit.</h1>
+        <p>La route demandée n’existe pas ou a été déplacée. Revenez au point de départ ou poursuivez vers l’espace technique.</p>
+        <nav class="error-actions" aria-label="Navigation de récupération">
+          <a class="button button--primary" href="/">Retour à l’accueil <span aria-hidden="true">↗</span></a>
+          <a class="button button--secondary" href="/services/">Voir les services <span aria-hidden="true">↗</span></a>
+          <a class="button button--secondary" href="/contact/">Contacter Rafi <span aria-hidden="true">↗</span></a>
+        </nav>
+      </section>
+    </main>
+
+    <footer class="error-footer">
+      <div class="container">Rafi Robotique et Machineries · Casablanca, Maroc</div>
+    </footer>
+  </div>
+</body>
+</html>

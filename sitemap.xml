@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+    <loc>https://rafirobotique.com/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rafirobotique.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr-MA" href="https://rafirobotique.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rafirobotique.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rafirobotique.com/"/>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://rafirobotique.com/services/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rafirobotique.com/services/"/>
+    <xhtml:link rel="alternate" hreflang="fr-MA" href="https://rafirobotique.com/services/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rafirobotique.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rafirobotique.com/services/"/>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://rafirobotique.com/realisations/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rafirobotique.com/realisations/"/>
+    <xhtml:link rel="alternate" hreflang="fr-MA" href="https://rafirobotique.com/realisations/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rafirobotique.com/en/projects/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rafirobotique.com/realisations/"/>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://rafirobotique.com/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rafirobotique.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr-MA" href="https://rafirobotique.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rafirobotique.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rafirobotique.com/contact/"/>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://rafirobotique.com/a-propos/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rafirobotique.com/a-propos/"/>
+    <xhtml:link rel="alternate" hreflang="fr-MA" href="https://rafirobotique.com/a-propos/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rafirobotique.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rafirobotique.com/a-propos/"/>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://rafirobotique.com/en/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rafirobotique.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rafirobotique.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr-MA" href="https://rafirobotique.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rafirobotique.com/"/>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://rafirobotique.com/en/services/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rafirobotique.com/en/services/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rafirobotique.com/services/"/>
+    <xhtml:link rel="alternate" hreflang="fr-MA" href="https://rafirobotique.com/services/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rafirobotique.com/services/"/>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://rafirobotique.com/en/projects/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rafirobotique.com/en/projects/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rafirobotique.com/realisations/"/>
+    <xhtml:link rel="alternate" hreflang="fr-MA" href="https://rafirobotique.com/realisations/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rafirobotique.com/realisations/"/>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://rafirobotique.com/en/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rafirobotique.com/en/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rafirobotique.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="fr-MA" href="https://rafirobotique.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rafirobotique.com/contact/"/>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+
+  <url>
+    <loc>https://rafirobotique.com/en/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://rafirobotique.com/en/about/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://rafirobotique.com/a-propos/"/>
+    <xhtml:link rel="alternate" hreflang="fr-MA" href="https://rafirobotique.com/a-propos/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://rafirobotique.com/a-propos/"/>
+    <lastmod>2026-09-09</lastmod>
+  </url>
+
+</urlset>
