@@ -1,0 +1,11 @@
+Description :
+
+La machine de tournage CNC, Gemine, est contrôlée par le système Siemens Sinumerik 840D et Simodrive 611. Elle a connu un dysfonctionnement avec l’immobilisation de l’axe Z et plusieurs alarmes d’erreur, causées par un système d’exploitation corrompu et des paramètres de la machine erronés. Notre équipe procédera à la restauration et à la récupération du système d’exploitation, reconfigurera les paramètres et effectuera une reprogrammation complète de la machine, assurant ainsi une intégration des systèmes de contrôle Siemens Sinumerik 840D et Simodrive 611.
+
+Client :
+
+Longofer
+
+Durée du projet :
+
+14 jours

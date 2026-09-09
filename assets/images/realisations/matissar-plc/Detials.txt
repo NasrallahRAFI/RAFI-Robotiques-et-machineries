@@ -1,0 +1,17 @@
+Description :
+
+Nous avons été contactés par Matissare,après que leur machine de montage de ressorts se soit arrêtée brusquement. Inquiets quant à la productivité et à l’efficacité de leur chaîne de production, ils ont rapidement sollicité notre expertise pour diagnostiquer et résoudre le problème.
+
+Notre équipe dévouée de techniciens expérimentés s’est rendue sur place pour évaluer la situation. Après avoir effectué une inspection minutieuse, nous avons découvert que la cause première du problème était la suppression du programme du contrôleur logique programmable (PLC) qui contrôlait les opérations complexes de la machine.
+
+Grâce à une collaboration diligente et à des efforts inlassables, notre équipe a réussi à reprogrammer le PLC, redonnant ainsi vie à la machine de montage de ressorts de Matissare. Le résultat a été une reprise de la pleine capacité de production, leur permettant ainsi de répondre aux demandes de leurs clients avec une précision et une qualité impeccables.
+
+Client :
+
+Matissar
+
+Durée du projet :
+
+10jours
+
+

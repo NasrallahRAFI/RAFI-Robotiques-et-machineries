@@ -1,0 +1,13 @@
+Description :
+
+Conception et fabrication d’un robot de soudage 5 axes avec des fonctionnalités avancées
+
+Notre équipe, en réponse à la demande de la société Armasteel, s’est vue confier la conception et la fabrication de deux robots de soudage 5 axes de pointe. Ces robots sont équipés d’un système de déplacement linéaire étendu, offrant une portée de 16 mètres, permettant ainsi une grande flexibilité dans les différentes applications de soudage.
+
+Ce qui distingue ces robots, c’est leur utilisation de capteurs infrarouges de pointe qui effectuent une mesure en temps réel du trajet de soudage. Ces capteurs permettent non seulement de garantir une précision extrême, mais également d’ajuster automatiquement la vitesse de déplacement du robot en fonction de l’angle de soudage spécifique requis. Cela garantit une soudure optimale et uniforme tout au long du processus.
+
+Non seulement ces robots de soudage 5 axes offrent une qualité de soudure supérieure, mais ils sont également dotés d’une interface conviviale et intuitive pour faciliter leur utilisation par les opérateurs. Grâce à leur conception robuste et à leur contrôle précis, ces robots sont capables d’accomplir efficacement une variété de tâches de soudage, même les plus complexes.
+
+La collaboration entre notre équipe d’experts et la société Armasteel a permis de créer des robots de soudage 5 axes à la pointe de la technologie, dotés de fonctionnalités avancées et offrant des performances sans compromis. Qu’il s’agisse de travaux de soudage industriels, de projets de construction navale ou de production automobile, ces robots sont prêts à relever les défis les plus exigeants tout en maintenant une qualité de soudure supérieure.
+
+Avec notre expertise en conception et fabrication de robots, nous nous tenons prêts à relever de nouveaux défis et à proposer des solutions personnalisées adaptées aux besoins spécifique.

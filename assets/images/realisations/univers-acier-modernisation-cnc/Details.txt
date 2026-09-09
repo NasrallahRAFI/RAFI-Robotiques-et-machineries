@@ -1,0 +1,5 @@
+Description :
+
+Modernisation et rétrofitage CNC de trois machines-outils lourdes (un grand tour CNC et deux rectifieuses cylindriques) pour notre client Univers Acier.
+
+Intégration d'une commande numérique développée et configurée par Rafi Robotiques et Machineries, remplacement des moteurs d'axes et variateurs par des servomoteurs synchrones haute dynamique, réfection complète des vis à billes et des armoires de commande.

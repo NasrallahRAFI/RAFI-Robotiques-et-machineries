@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 252 210" fill="none">
+  <!-- Outer Gear Perimeter with 6 Mechanical Teeth -->
+  <path d="
+    M 100 32
+    L 112 32
+    L 114 42
+    L 178 42
+    M 100 32
+    L 88 32
+    L 85 43
+    A 64 64 0 0 0 68 53
+    L 59 45
+    L 47 55
+    L 53 66
+    A 64 64 0 0 0 46 84
+    L 34 87
+    L 34 103
+    L 46 106
+    A 64 64 0 0 0 46 126
+    L 34 129
+    L 34 145
+    L 46 148
+    A 64 64 0 0 0 53 166
+    L 47 177
+    L 59 187
+    L 68 179
+    A 64 64 0 0 0 85 189
+    L 88 200
+    L 100 200
+    L 112 200
+    L 115 189
+    A 64 64 0 0 0 130 180
+    L 138 188
+    L 148 180
+    L 140 166
+    L 140 153
+    L 178 153
+  " stroke="#0D0E11" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Mechanical Hub Bore (Upper Arc to Trace 2) -->
+  <path d="
+    M 178 79
+    L 131 79
+    A 44 44 0 1 0 100 160
+  " stroke="#0D0E11" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Trace 1 (Top Black Trace Pad) -->
+  <circle cx="178" cy="42" r="9.5" fill="#0D0E11"/>
+
+  <!-- Trace 2 (Middle-Upper Black Trace Pad) -->
+  <circle cx="178" cy="79" r="9.5" fill="#0D0E11"/>
+
+  <!-- Trace 3 (Middle Long Electric Blue Trace & Pad) -->
+  <path d="
+    M 100 160
+    A 44 44 0 0 0 144 116
+    L 228 116
+  " stroke="#0062E3" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="228" cy="116" r="10" fill="#0062E3"/>
+
+  <!-- Trace 4 (Bottom Black Trace Pad) -->
+  <circle cx="178" cy="153" r="9.5" fill="#0D0E11"/>
+</svg>
