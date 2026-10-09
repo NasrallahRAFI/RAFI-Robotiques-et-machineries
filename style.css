@@ -723,6 +723,38 @@
   color: #ffffff;
   margin: 0;
 }
+.patent .patent-header p.patent-summary {
+  max-width: 68ch;
+  margin: 16px auto 0;
+  color: rgba(255, 255, 255, 0.76);
+  font-size: clamp(0.94rem, 1.3vw, 1.05rem);
+  line-height: 1.65;
+}
+.patent-facts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px 32px;
+  margin: 22px 0 0;
+}
+.patent-facts > div {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.patent-facts dt {
+  color: #93c5fd;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.patent-facts dd {
+  margin: 0;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
 .patent-title__label {
   color: #93c5fd;
   font-weight: 600;

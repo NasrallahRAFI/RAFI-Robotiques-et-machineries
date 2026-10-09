@@ -2,9 +2,93 @@
   "baseUrl": "https://rafirobotique.com",
   "organization": {
     "@id": "https://rafirobotique.com/#organization",
-    "legalName": "Rafi Robotiques et Machineries",
+    "name": "Rafi Robotiques et Machineries",
+    "alternateName": "RAFI Robotics & Machinery",
     "url": "https://rafirobotique.com/",
-    "logo": "https://rafirobotique.com/assets/images/logo/rafi-mark-static.png"
+    "logo": "https://rafirobotique.com/assets/images/logo/rafi-mark-static.png",
+    "telephone": "+212 6 61 40 22 90",
+    "email": "Rafiali@rafirobotique.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Casablanca",
+      "addressRegion": "Casablanca-Settat",
+      "addressCountry": "MA"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Morocco"
+    },
+    "descriptions": {
+      "fr": "Rafi Robotiques et Machineries conçoit et fabrique des machines industrielles sur mesure, modernise des machines-outils par rétrofitage CNC, programme des automates Siemens et réalise le diagnostic et la réparation de machines industrielles à Casablanca, au Maroc.",
+      "en": "Rafi Robotiques et Machineries designs and builds custom industrial machinery, modernizes machine tools through CNC retrofits, programs Siemens PLCs, and diagnoses and repairs industrial machinery in Casablanca, Morocco."
+    },
+    "knowsAbout": {
+      "fr": [
+        "Conception et fabrication de machines industrielles sur mesure",
+        "Rétrofitage et modernisation de machines-outils CNC",
+        "Diagnostic et réparation de machines industrielles",
+        "Programmation d’automates Siemens",
+        "Systèmes robotisés de soudage et d’assemblage"
+      ],
+      "en": [
+        "Custom industrial machinery design and fabrication",
+        "CNC machine-tool retrofitting and modernization",
+        "Industrial machinery diagnosis and repair",
+        "Siemens PLC programming",
+        "Robotic welding and assembly systems"
+      ]
+    }
+  },
+  "website": {
+    "@id": "https://rafirobotique.com/#website",
+    "name": "Rafi Robotiques et Machineries",
+    "alternateName": "RAFI Robotics & Machinery",
+    "inLanguage": ["fr-MA", "en"]
+  },
+  "service": {
+    "names": {
+      "fr": "Ingénierie industrielle et automatisation",
+      "en": "Industrial engineering and automation"
+    },
+    "descriptions": {
+      "fr": "Conception et fabrication de machines industrielles sur mesure, rétrofitage CNC, programmation d’automates Siemens, diagnostic et réparation de machines industrielles à Casablanca, au Maroc.",
+      "en": "Custom industrial machinery design and fabrication, CNC retrofitting, Siemens PLC programming, and industrial machinery diagnosis and repair in Casablanca, Morocco."
+    },
+    "serviceTypes": {
+      "fr": [
+        "Conception et fabrication de machines industrielles",
+        "Rétrofitage CNC",
+        "Programmation d’automates Siemens",
+        "Diagnostic et réparation de machines industrielles"
+      ],
+      "en": [
+        "Custom industrial machinery design and fabrication",
+        "CNC retrofitting",
+        "Siemens PLC programming",
+        "Industrial machinery diagnosis and repair"
+      ]
+    }
+  },
+  "invention": {
+    "@id": "https://rafirobotique.com/#invention",
+    "names": {
+      "fr": "Système robotisé de production de profilés à âme ondulée",
+      "en": "Robotic production system for corrugated-web profiles"
+    },
+    "descriptions": {
+      "fr": "Le brevet marocain OMPIC n° 65133, accordé le 28 novembre 2025, porte sur un procédé de production automatisée coordonnant la manutention robotisée, le positionnement des profilés, l’assemblage et le soudage de poutres à âme ondulée.",
+      "en": "Moroccan patent OMPIC No. 65133, granted on 28 November 2025, covers an automated production process coordinating robotic material handling, profile positioning, assembly, and welding of corrugated-web beams."
+    },
+    "datePublished": "2025-11-28",
+    "identifier": {
+      "@type": "PropertyValue",
+      "propertyID": "OMPIC Patent Number",
+      "value": "65133"
+    },
+    "countryOfOrigin": {
+      "@type": "Country",
+      "name": "Morocco"
+    }
   },
   "routes": [
     { "path": "/", "sourceFile": "index.html", "lang": "fr", "alternates": [{ "hreflang": "fr", "path": "/" }, { "hreflang": "fr-MA", "path": "/" }, { "hreflang": "en", "path": "/en/" }, { "hreflang": "x-default", "path": "/" }] },
@@ -17,7 +101,7 @@
     { "path": "/en/projects/", "sourceFile": "en/projects/index.html", "lang": "en", "alternates": [{ "hreflang": "en", "path": "/en/projects/" }, { "hreflang": "fr", "path": "/realisations/" }, { "hreflang": "fr-MA", "path": "/realisations/" }, { "hreflang": "x-default", "path": "/realisations/" }] },
     { "path": "/en/contact/", "sourceFile": "en/contact/index.html", "lang": "en", "alternates": [{ "hreflang": "en", "path": "/en/contact/" }, { "hreflang": "fr", "path": "/contact/" }, { "hreflang": "fr-MA", "path": "/contact/" }, { "hreflang": "x-default", "path": "/contact/" }] },
     { "path": "/en/about/", "sourceFile": "en/about/index.html", "lang": "en", "alternates": [{ "hreflang": "en", "path": "/en/about/" }, { "hreflang": "fr", "path": "/a-propos/" }, { "hreflang": "fr-MA", "path": "/a-propos/" }, { "hreflang": "x-default", "path": "/a-propos/" }] },
-    { "path": "/en/a-propos/", "sourceFile": "en/a-propos/index.html", "indexable": false },
-    { "path": "/en/realisations/", "sourceFile": "en/realisations/index.html", "indexable": false }
+    { "path": "/en/a-propos/", "sourceFile": "en/a-propos/index.html", "lang": "en", "indexable": false },
+    { "path": "/en/realisations/", "sourceFile": "en/realisations/index.html", "lang": "en", "indexable": false }
   ]
 }
